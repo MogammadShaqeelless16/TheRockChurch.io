@@ -22,16 +22,31 @@
   background-color: #1F1F1F;
   color: white;
   font-size: 55px;
-  padding: 45px 140px;
+
   border: 2px solid white;
   cursor: pointer;
   border-radius: 100px;
   text-align: center;
 }
-
 .container .btn:hover {
   background-color: white;
   color: black;
+}
+.container .btn {
+  /* matches 'btn-md' */
+
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+@media (max-width:760px) {
+  /* matches 'btn-xs' */
+.container .btn {
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+  }
 }
 </style>
 </head>
@@ -40,7 +55,11 @@
 
 <div class="container">
 <img src="images/Frame 2.jpg" alt="" style="display: block;"  width="100%" height="100%"/>
- <button class="btn">SEE MORE</button>
+ <button class="btn" style="
+    height: 10%;
+    width: 50%;
+    border-radius: 100px;
+">SEE MORE</button>
  </a> 
 </div>
 
