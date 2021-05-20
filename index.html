@@ -25,6 +25,52 @@
 
 }			
 
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 79%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #1F1F1F;
+  color: white;
+  font-size: 55px;
+
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 100px;
+  text-align: center;
+}
+.container .btn:hover {
+  background-color: white;
+  color: black;
+}
+.container .btn {
+  /* matches 'btn-md' */
+
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+@media (max-width:760px) {
+  /* matches 'btn-xs' */
+.container .btn {
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+  }
+}
 
 #myBtn {
   display: none;
@@ -77,35 +123,94 @@
 ">
 </div>
 </div>
-</div>
-
 		
 
 		<!-- One -->
 
 				<div >
-				<a href="A Rock Solid Foundation - Celebrating 10 Years - TheRock Church.pdf#page=36">
 						<img src="images/Frame 1.jpg" alt="" style="display: block;" width="100%" height="100%"/>
-
+						<div class="container" style="
+							margin-left: 0px;
+							margin-right: 0px;
+						">
 						<img src="images/Frame 2.jpg" alt="" style="display: block;"  width="100%" height="100%"/>
-												</a>
+						<button class="btn" style="
+							height: 10%;
+							width: 50%;
+							border-radius: 100px;
+						">SEE MORE</button>
+						</a> 
+			 </div>
+
+			 		<!-- Two -->
 						<img src="images/Frame 3.jpg" alt="" style="display: block;" width="100%" height="100%"/>
-				<a href="A Rock Solid Foundation - Celebrating 10 Years - TheRock Church.pdf#page=2">
-						<img src="images/Frame 4.jpg" alt="" style="display: block;" width="100%" height="100%"/>
-						</a>
+						<div class="container" style="
+							margin-left: 0px;
+							margin-right: 0px;
+						">
+						<img src="images/Frame 4.jpg" alt="" style="display: block;"  width="100%" height="100%"/>
+						<button class="btn" style="
+							height: 15%;
+							width: 32%;
+							border-radius: 100px;
+							top: 75%;
+							left: 50%;
+							background-color: #ffffff;
+						">ABOUT US</button>
+						</a> 
+						</div>
 
-				<a href="A Rock Solid Foundation - Celebrating 10 Years - TheRock Church.pdf#page=16">
 						<img src="images/Frame 5.jpg" alt="" style="display: block;" width="100%" height="100%"/>
-
+						<div class="container" style="
+							margin-left: 0px;
+							margin-right: 0px;
+						">
 						<img src="images/Frame 6.jpg" alt="" style="display: block;" width="100%" height="100%"/>
-						</a>
+						<button class="btn" style="
+							height: 12%;
+							width: 35%;
+							top: 77%;
+							border-radius: 100px;
+						">READ MORE</button>
+						</a> 
+						</div>
+
+
 						<img src="images/Frame 7.jpg" alt="" style="display: block;" width="100%" height="100%"/>
-						<a href="Vision.pdf">
+						<div class="container" style="
+							margin-left: 0px;
+							margin-right: 0px;
+						">
 						<img src="images/Frame 8.jpg" alt="" style="display: block;"  width="100%" height="100%"/>
-							</a>	
-							<a href="Album.html">
+						<button class="btn" style="
+							height: 10%;
+							width: 32%;
+							border-radius: 100px;
+							top: 80%;
+							left: 50%;
+							background-color: #ffffff;
+							border-color: black;
+						">READ MORE</button>
+						</a> 
+						</div>
+
+						
+
+						<div class="container" style="
+							margin-left: 0px;
+							margin-right: 0px;
+						">
 						<img src="images/Frame 9.jpg" alt="" style="display: block;" width="100%" height="100%"/>
-							</a>
+						<button class="btn" style="
+							height: 6%;
+							width: 32%;
+							top: 90%;
+							border-radius: 100px;
+						">LISTEN NOW</button>
+						</a> 
+						</div>
+
+
 						<img src="images/Frame 10.jpg" alt="" style="display: block;" width="100%" height="100%"/>
 						</a>
 						<a href="A Rock Solid Foundation - Celebrating 10 Years - TheRock Church.pdf#page=28">
@@ -165,8 +270,6 @@
 						</form>
 						</div>
 					</section>
-
-	
 
 
 	<script src="assets/js/jquery.min.js"></script>
